@@ -1,0 +1,299 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.25.0" title="Shotcut version 21.03.21" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:04:30.800">
+    <property name="length">00:04:30.840</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:04:30.800"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:05:22.840">
+    <property name="length">00:05:22.880</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/Haustor - Moja prva ljubav.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-05-22T11:33:38</property>
+    <property name="shotcut:hash">4433d5554cd50cc61586d21142b9995f</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">Haustor - Moja prva ljubav.mp3</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:05:22.840">
+    <property name="length">00:05:22.880</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/Haustor - Moja prva ljubav.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-05-22T11:33:38</property>
+    <property name="shotcut:hash">4433d5554cd50cc61586d21142b9995f</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">Haustor - Moja prva ljubav.mp3</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:04:26.920"/>
+    <entry producer="producer1" in="00:05:19.000" out="00:05:22.840"/>
+  </playlist>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/01.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T12:51:49</property>
+    <property name="shotcut:hash">a2e0971492e804de2fff2e8fe18fa01a</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">01.png</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/02.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T12:52:28</property>
+    <property name="shotcut:hash">b62a4a2f05d97e0f4c8485fedaa273c5</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">02.png</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/03.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T12:53:08</property>
+    <property name="shotcut:hash">5719f75dc6d946a3d4843c7afbcf9449</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">03.png</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/04.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T12:53:47</property>
+    <property name="shotcut:hash">d20464e8881b9c79af963fdb8801987e</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">04.png</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/05.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T12:54:26</property>
+    <property name="shotcut:hash">6b7af646fcd8ab8cf32d9f4deeb41eff</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">05.png</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/06.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T12:55:09</property>
+    <property name="shotcut:hash">4123b4bb64334eeae0f555950436e77a</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">06.png</property>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/07.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T12:55:45</property>
+    <property name="shotcut:hash">5807060cdcc3273d96e4bd4b681ddd78</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">07.png</property>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/08.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T12:56:28</property>
+    <property name="shotcut:hash">595e34f86587c4fa8b7712641cede02e</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">08.png</property>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/09.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T12:57:16</property>
+    <property name="shotcut:hash">f790d73576d0b7d03fb978ef8371e990</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">09.png</property>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/10.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T12:58:37</property>
+    <property name="shotcut:hash">2bbfba775719ab6872e03f4bb8aad3ff</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">10.png</property>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/11.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T12:59:24</property>
+    <property name="shotcut:hash">797d1aa2952539ece195e8cbf4138741</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">11.png</property>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/12.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T13:00:08</property>
+    <property name="shotcut:hash">9215dcb53e8459454ff4e5bcf71a1837</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">12.png</property>
+  </producer>
+  <producer id="producer14" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Haustor - Moja prva ljubav/13.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-06-17T13:00:44</property>
+    <property name="shotcut:hash">596968bb77581a36f094bf54b559af04</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">13.png</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:00:07.120"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:12.760"/>
+    <blank length="00:00:00.280"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:20.360"/>
+    <blank length="00:00:00.720"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:19.960"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:20.640"/>
+    <blank length="00:00:07.160"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:06.560"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:14.400"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:01:01.480"/>
+    <blank length="00:00:00.840"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:06.520"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:14.080"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:20.200"/>
+    <blank length="00:00:00.360"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:20.960"/>
+    <blank length="00:00:06.680"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:00:10.560"/>
+    <blank length="00:00:00.320"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:18.240"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 21.03.21" global_feed="1" in="00:00:00.000" out="00:04:30.800">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">2.09489</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
