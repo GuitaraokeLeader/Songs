@@ -1,0 +1,88 @@
+Em    = [0 2 2 0 0 0]
+EmM7  = [0 2 1 0 0 0]
+Em7   = [0 2 0 0 0 0]
+Em6   = [0 2 2 0 2 0]
+Eb    = [x 6 8 8 8 6]
+=============================
+ 
+[Intro]
+Em   EmM7   Em7  Em6
+ 
+ 
+[Verse]
+Em      EmM7   Em7  Em6
+Srce veliko kakor svet,
+Em      EmM7   Em7   Em6
+nasmeh in iskrica v očeh,
+      Am
+in beseda,
+                Em
+poznaš jo tudi ti.
+ 
+Em     EmM7     Em7     Em6
+V življenju mnogo je poti,
+Em     EmM7     Em7   Em6
+ne išči sreče kjer je ni,
+       Am
+le poslušaj,
+                 D7
+kar srce ti govori.
+ 
+[Chorus]
+    G         B           Em
+Lahko ti podarim samo ljubezen,
+C             E7      Am
+... eno in edino upanje,
+    D         B
+poglej me v oči,
+       Em            A
+in lahko si brez skrbi,
+  Eb         F          G
+vem da isto čutiš tudi ti.
+ 
+[Post-Chorus]
+Em            EmM7
+Kar želiš si, to ni greh,
+Em7     Em6       Em
+to je ljubezen v očeh.
+ 
+[Verse]
+Em     EmM7     Em7     Em6
+Poznaš me bolj kot se ti zdi,
+Em   EmM7     Em7   Em6
+čeprav zatiskaš si oči,
+          Am
+ko me gledaš,
+             Em
+vidiš to kar si.
+ 
+Em     EmM7     Em7     Em6
+Dolgo časa si iskal,
+Em     EmM7     Em7     Em6
+kar si mislil da je prav,
+       Am
+a na koncu,
+              D7
+le eno boš izbral.
+ 
+[Chorus]
+    G         B           Em
+Lahko ti podarim samo ljubezen,
+C             E7      Am
+... eno in edino upanje,
+    D         B
+poglej me v oči,
+       Em            A
+in lahko si brez skrbi,
+  Eb         F          G    D7
+vem da isto čutiš tudi ti.
+    G         B           Em
+Lahko ti podarim samo ljubezen,
+C             E7      Am
+... eno in edino upanje,
+    D         B
+poglej me v oči,
+       Em            A
+in lahko si brez skrbi,
+   Eb              F        G
+...saj jo v srcu čutiš tudi ti.
