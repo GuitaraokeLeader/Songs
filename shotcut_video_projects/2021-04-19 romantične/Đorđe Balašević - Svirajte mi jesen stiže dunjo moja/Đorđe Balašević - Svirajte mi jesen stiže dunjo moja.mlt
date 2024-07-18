@@ -1,0 +1,428 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.25.0" title="Shotcut version 21.03.21" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:05:54.440">
+    <property name="length">00:05:54.480</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:05:54.440"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:05:22.720">
+    <property name="length">00:05:22.760</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">62690a5ec355d52814746c16cddf7283</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">Đorđe Balašević - Svirajte mi jesen stiže dunjo moja.mp3</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:05:22.720"/>
+  </playlist>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/00.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">bb30ad4b6169c7472d1ca8fadc473b9b</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">00.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/01.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">e000e77e74b98f2c52534fbda6bd1d13</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">01.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/02.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">78943b05bce0b0e0479bbd38f5333d23</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">02.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/03.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">4577a30ceb762dbb7f512f538cc31190</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">03.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/04.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">5f3662c525f6a43bb624b10a9dfa2702</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">04.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/05.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">312ed0c6d5b87f611787e9d528ff8841</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">05.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/06.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">84f176a3a64f0a32945e9b8fe233a4b2</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">06.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/07.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">007a9c0528b682183c77ac5c020bf2cc</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">07.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/08.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">b6dfa9642d3569b124618dcd277b239f</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">08.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/09.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">c600b8d0355628eceaa1de1f83ed3bca</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">09.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/10.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">40d869eeae14ec432017ebd97a273e2d</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">10.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/11.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">9b928f290967693a52ae8b0a49c9618b</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">11.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/12.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">fb0c3aa12fd0e4118863f17bbfdf9893</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">12.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer14" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/13.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">783dea7c6c34932e2ffa82209e8c46e0</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">13.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer15" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/14.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">af89ee8fa6963e2f8a262ec457889791</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">14.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer16" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/15.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">2ce23693fbd005ea137497a5043125a1</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">15.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer17" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/16.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">414e12b46e8ea4efa2f60e60ae40f001</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">16.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer18" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/17.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">491075f10a7b6de7d656f415b3f8492a</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">17.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer19" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/18.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">0daadf2648dd5a90ebcc90b1243f03d6</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">18.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer20" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Đorđe Balašević - Svirajte mi jesen stiže dunjo moja/19.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">2c11a3dd8f60b9422365a7152142752b</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">19.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer21" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter0" out="00:00:07.920">
+      <property name="argument">Am</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">120</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:06.320"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:06.800"/>
+    <blank length="00:00:00.200"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:07.560"/>
+    <blank length="00:00:00.160"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:14.440"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:14.520"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:11.400"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:14.680"/>
+    <blank length="00:00:01.400"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:15.080"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:15.040"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:11.400"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:12.000"/>
+    <blank length="00:00:02.440"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:27.200"/>
+    <blank length="00:00:00.840"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:00:31.680"/>
+    <blank length="00:00:00.400"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:12.560"/>
+    <blank length="00:00:00.960"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:15.600"/>
+    <blank length="00:00:00.360"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:00:10.600"/>
+    <blank length="00:00:00.200"/>
+    <entry producer="producer17" in="00:00:00.000" out="00:00:14.520"/>
+    <blank length="00:00:00.240"/>
+    <entry producer="producer18" in="00:00:00.000" out="00:00:27.960"/>
+    <blank length="00:00:00.160"/>
+    <entry producer="producer19" in="00:00:00.000" out="00:00:31.120"/>
+    <blank length="00:00:01.680"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:12.280"/>
+    <blank length="00:00:23.800"/>
+    <entry producer="producer21" in="00:00:00.000" out="00:00:07.920"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 21.03.21" global_feed="1" in="00:00:00.000" out="00:05:54.440">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">2.207</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
