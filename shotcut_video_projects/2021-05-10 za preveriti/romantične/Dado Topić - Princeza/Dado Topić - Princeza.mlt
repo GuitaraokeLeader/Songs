@@ -1,0 +1,521 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.23.0" title="Shotcut version 20.10.31" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:02:52.800">
+    <property name="length">00:02:52.840</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:02:52.800"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:02:52.800">
+    <property name="length">00:02:52.840</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.1:c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Dado Topić - Princeza/Dado Topić - Princeza - slower.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">1.1</property>
+    <property name="warp_resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Dado Topić - Princeza/Dado Topić - Princeza - slower.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">cd6daa131e540b0a1ac7378de026802b</property>
+    <property name="shotcut:caption">Dado Topić - Princeza - slower.mp4 (1.1x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="warp_pitch">1</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:02:52.800"/>
+  </playlist>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter0" out="00:00:21.160">
+      <property name="argument">   C         Am           
+ti živiš gde zvezde tkaju 
+G      F
+sag od srebra
+  Dm          G		
+i nevinošću sja	
+       C        Am         G   F
+tvoje lice dok nedostižan kao sena</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter1" out="00:00:18.080">
+      <property name="argument">	Dm              G
+nastavljaš svoj let
+F          G             C
+ negde sakriven tvoj je svet
+Dm               E         Am
+ vječnom ljubavlju dodirni me 
+             G
+i ostani uz mene</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter2" out="00:00:13.320">
+      <property name="argument">     C         Am
+jer ti si princeza 
+F                 G
+ s nekog drugog sveta
+       C            Am
+tvoja riječ stvara čuda 
+F           G       Am 
+ budi iskrena uputi mi</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter3" out="00:00:13.320">
+      <property name="argument">G              F
+osmijeh tek da znam 
+    Am          Dm
+postojiš nisam sam
+       G
+negde izvan planeta</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter4" out="00:00:21.160">
+      <property name="argument">   C         Am           
+još ne znam dal' si
+  G         F
+zvezda ili žena
+  Dm          G		
+i samo jedan tren 
+       C        Am         G       F
+da postojiš k'o ružicasta morska pjena</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter5" out="00:00:18.080">
+      <property name="argument">   Dm          G
+na žalu stojim sam 
+F           G          C
+ galebova stope briše val
+Dm               E         Am
+ vječnom ljubavlju dodirni me 
+             G
+i ostani uz mene</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter6" out="00:00:13.320">
+      <property name="argument">     C         Am
+jer ti si princeza 
+F                 G
+ s nekog drugog sveta
+       C            Am
+tvoja riječ stvara čuda 
+F           G       Am 
+ budi iskrena uputi mi</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter7" out="00:00:11.720">
+      <property name="argument">    G            F
+osmijeh tek da znam 
+    Am          Dm
+postojiš nisam sam
+      G
+negde izvan planeta
+      ... (gor en ton)</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter8" out="00:00:13.320">
+      <property name="argument">     D         Hm
+jer ti si princeza 
+G                 A
+ s nekog drugog sveta
+       D            Hm
+tvoja riječ stvara čuda 
+G           A       Hm 
+ budi iskrena uputi mi</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter9" out="00:00:17.880">
+      <property name="argument">    A           G
+osmijeh tek da znam 
+    Hm          Em
+postojiš nisam sam
+       A
+negde izvan planeta
+izvan tog sveta   aaaa</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:00:05.080"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:21.160"/>
+    <blank length="00:00:01.520"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:18.080"/>
+    <blank length="00:00:00.200"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:13.320"/>
+    <blank length="00:00:00.160"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:13.320"/>
+    <blank length="00:00:01.040"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:21.160"/>
+    <blank length="00:00:00.160"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:18.080"/>
+    <blank length="00:00:00.760"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:13.320"/>
+    <blank length="00:00:00.320"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:11.720"/>
+    <blank length="00:00:00.160"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:13.320"/>
+    <blank length="00:00:00.560"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:17.880"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 20.10.31" global_feed="1" in="00:00:00.000" out="00:02:52.800">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">0.272144</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
