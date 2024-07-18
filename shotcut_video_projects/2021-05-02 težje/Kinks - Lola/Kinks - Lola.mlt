@@ -1,0 +1,1459 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.23.0" title="Shotcut version 20.10.31" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:04:02.840">
+    <property name="length">00:04:02.880</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:04:02.840"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:04:02.840">
+    <property name="length">00:04:02.880</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Luciano/Dropbox/PianoAndGuitar/guitaraoke/V delu/Kinks - Lola/Kinks - Lola.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-04-25T10:03:39</property>
+    <property name="shotcut:hash">ec7e856db18921dc9be4503b491fb434</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">Kinks - Lola.mp3</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:04:02.840"/>
+  </playlist>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter0" out="00:00:01.440">
+      <property name="argument">C  D  E</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter1" out="00:00:02.160">
+      <property name="argument">     C                  D   
+e|---0----0----0-0-0-0--2-2-
+B|---1----1----1-1-1-1--3-3-
+G|---0----0----0-0-0-0--2-2-
+D|---2----2----2-2-2-2--0-0-
+A|---3----3----3-3-3-3------
+E|--------------------------
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter2" out="00:00:02.760">
+      <property name="argument">  E
+--0---0----0----0-----0---------|
+--0-----0----0----0--------0----|
+--1-------1----1----1----1---1--|
+--2-----------------------------|
+--2-----------------------------|
+--0-----------------------------|
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter3" out="00:00:07.560">
+      <property name="argument">  E
+I met her in a club down in old Soho
+          A              
+Where you drink champagne
+       D                     E
+and it tastes just like coca cola
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter4" out="00:00:05.200">
+      <property name="argument">         A     Asus4     A
+C-O-L-A, cola</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter5" out="00:00:07.680">
+      <property name="argument">    E
+She walked up to me and she asked me to dance
+  A                            
+I asked her - her name and in a
+  D                         E
+dark brown voice she said Lola
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter6" out="00:00:09.240">
+      <property name="argument">         A
+L-O-L-A, Lola,  
+D             C      
+  Lo lo lo lo Lola
+C   D   E</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter7" out="00:00:02.600">
+      <property name="argument">e|------------------------------------------
+B|-----9-9-9--------------------------------
+G|-----9-9-9---11-p-9-----------------------
+D|-----9-9-9----------11-11-p-9----9--------
+A|--7---------------------------11---7-/-11-
+E|-----------------------------</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter8" out="00:00:02.880">
+      <property name="argument">-----------------------------|
+-----------------------------|
+----------9--------9---------|
+----------9--------9---------|
+---9-h-11---9-h-11----9-h-11-|
+-----------------------------|
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter9" out="00:00:07.120">
+      <property name="argument">     E
+Well I'm not the world’s most physical guy
+             A                
+but when she squeezed me tight
+           D                     E
+she nearly broke my spine, oh my Lola
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter10" out="00:00:05.440">
+      <property name="argument">            A    Asus4  A
+Lo lo lo lo Lola</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter11" out="00:00:07.800">
+      <property name="argument">     E
+Well I'm not dumb but I can't understand
+        A                      
+why she walked like a woman
+    D                       E
+and talked like a man oh my Lola
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter12" out="00:00:08.280">
+      <property name="argument">         A
+L-O-L-A, Lola,  
+D             C      
+  Lo lo lo lo Lola
+C   D   E</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer14" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter13" out="00:00:02.600">
+      <property name="argument">e|------------------------------------------
+B|-----9-9-9--------------------------------
+G|-----9-9-9---11-p-9-----------------------
+D|-----9-9-9----------11-11-p-9----9--------
+A|--7---------------------------11---7-/-11-
+E|-----------------------------</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer15" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter14" out="00:00:02.880">
+      <property name="argument">-----------------------------|
+-----------------------------|
+----------9--------9---------|
+----------9--------9---------|
+---9-h-11---9-h-11----9-h-11-|
+-----------------------------|
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer16" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter15" out="00:00:12.880">
+      <property name="argument">        H
+Well we drank champagne and danced all night
+F\#
+Under electric candlelight
+    A
+She picked me up and sat me on her knee
+ 
+And said 'Dear boy, won't you come home with me'</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer17" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter16" out="00:00:07.080">
+      <property name="argument">     E
+Well I'm not the world's most passionate guy
+           A                 
+but when I looked in her eye,
+       D                  E
+well I almost fell for my Lola
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer18" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter17" out="00:00:08.240">
+      <property name="argument">            A    
+Lo lo lo lo Lola,
+ D             C   
+   Lo lo lo lo Lola
+C   D   E</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer19" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter18" out="00:00:08.960">
+      <property name="argument">            A    
+Lo lo lo lo Lola,
+ D             C   
+   Lo lo lo lo Lola
+C   D   E</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer20" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter19" out="00:00:02.600">
+      <property name="argument">e|------------------------------------------
+B|-----9-9-9--------------------------------
+G|-----9-9-9---11-p-9-----------------------
+D|-----9-9-9----------11-11-p-9----9--------
+A|--7---------------------------11---7-/-11-
+E|-----------------------------</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer21" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter20" out="00:00:02.880">
+      <property name="argument">-----------------------------|
+-----------------------------|
+----------9--------9---------|
+----------9--------9---------|
+---9-h-11---9-h-11----9-h-11-|
+-----------------------------|
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer22" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter21" out="00:00:08.600">
+      <property name="argument">  A      C\#m H
+I pushed her away
+  A      C\#m    H
+I walked to the door
+   A   C\#m    H
+I fell to the floor</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer23" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter22" out="00:00:07.400">
+      <property name="argument">      E    G\#m   C\#m
+I got down on my knees
+     H
+Then I looked at her and she at me</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer24" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter23" out="00:00:12.360">
+      <property name="argument">     E
+Well that's the way that I want it to stay
+      A             
+and I always want it
+   D                  E
+to be that way for my Lola
+            A    Asus4  A
+Lo lo lo lo Lola</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer25" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter24" out="00:00:11.200">
+      <property name="argument">E
+Girls will be boys and boys will be girls
+       A                    
+It's a mixed up, muddled up,
+D                         E
+shook up world except for Lola
+            A
+Lo lo lo lo Lola
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer26" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter25" out="00:00:12.120">
+      <property name="argument">     H
+Well I left home just a week before
+    F\#
+And I'd never ever kissed a woman before
+A
+Lola smiled and took me by the hand
+ 
+and said 'dear boy, I'm gonna make you a man'</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer27" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter26" out="00:00:07.520">
+      <property name="argument">     E
+Well I'm not the worlds most passionate man
+      A             
+but I know what I am
+        D                        E
+and I'm glad I'm a man and so is Lola,
+</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer28" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter27" out="00:00:08.080">
+      <property name="argument">            A    
+Lo lo lo lo Lola,
+ D             C   
+   Lo lo lo lo Lola
+C   D   E</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer29" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter28" out="00:00:08.960">
+      <property name="argument">            A    
+Lo lo lo lo Lola,
+ D             C   
+   Lo lo lo lo Lola
+C   D   E</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer30" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter29" out="00:00:08.960">
+      <property name="argument">            A    
+Lo lo lo lo Lola,
+ D             C   
+   Lo lo lo lo Lola
+C   D   E</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer31" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter30" out="00:00:08.960">
+      <property name="argument">            A    
+Lo lo lo lo Lola,
+ D             C   
+   Lo lo lo lo Lola
+C   D   E</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer32" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter31" out="00:00:09.040">
+      <property name="argument">            A    
+Lo lo lo lo Lola,
+ D             C   
+   Lo lo lo lo Lola
+C   D   E</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer33" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter32" out="00:00:08.080">
+      <property name="argument">            A    
+Lo lo lo lo Lola,
+ D             C   
+   Lo lo lo lo Lola
+C   D   E</property>
+      <property name="geometry">31 70 1862 987 1</property>
+      <property name="family">Source Code Pro Black</property>
+      <property name="size">100</property>
+      <property name="weight">870</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffff00</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:01.440"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:02.160"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer3" in="00:00:00.040" out="00:00:02.760"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:07.560"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:05.200"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:07.680"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:09.240"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:02.600"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:02.880"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:07.120"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:05.440"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:07.800"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:00:08.280"/>
+    <blank length="00:00:00.240"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:02.600"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:02.880"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:00:12.880"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer17" in="00:00:00.000" out="00:00:07.080"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="producer18" in="00:00:00.000" out="00:00:08.240"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer19" in="00:00:00.000" out="00:00:08.960"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:02.600"/>
+    <entry producer="producer21" in="00:00:00.000" out="00:00:02.880"/>
+    <blank length="00:00:00.360"/>
+    <entry producer="producer22" in="00:00:00.000" out="00:00:08.600"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="producer23" in="00:00:00.000" out="00:00:07.400"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:00:12.360"/>
+    <blank length="00:00:00.160"/>
+    <entry producer="producer25" in="00:00:00.000" out="00:00:11.200"/>
+    <blank length="00:00:01.120"/>
+    <entry producer="producer26" in="00:00:00.000" out="00:00:12.120"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer27" in="00:00:00.000" out="00:00:07.520"/>
+    <blank length="00:00:00.160"/>
+    <entry producer="producer28" in="00:00:00.000" out="00:00:08.080"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer29" in="00:00:00.000" out="00:00:08.960"/>
+    <blank length="00:00:00.360"/>
+    <entry producer="producer30" in="00:00:00.000" out="00:00:08.960"/>
+    <blank length="00:00:00.360"/>
+    <entry producer="producer31" in="00:00:00.000" out="00:00:08.960"/>
+    <blank length="00:00:00.280"/>
+    <entry producer="producer32" in="00:00:00.000" out="00:00:09.040"/>
+    <blank length="00:00:00.320"/>
+    <entry producer="producer33" in="00:00:00.000" out="00:00:08.080"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 20.10.31" global_feed="1" in="00:00:00.000" out="00:04:02.840">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">0.353</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
